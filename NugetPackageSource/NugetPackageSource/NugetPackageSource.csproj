@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+		<PackageReadmeFile>readme.md</PackageReadmeFile> <!-- 新增配置 -->
+    </PropertyGroup>
+	
+	<ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\"/> <!-- 新增配置 -->
+	</ItemGroup>
+
+</Project>
